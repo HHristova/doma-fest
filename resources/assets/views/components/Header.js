@@ -4,7 +4,7 @@ let Header = {
     render: async () => {
         let view =  /*html*/`
             <header>
-                <nav class="navbar navbar-expand navbar-dark container p-0">
+                <nav class="navbar navbar-expand-md navbar-light container p-0">
                   <a class="navbar-brand ml-2 ml-sm-0" href="/">
                       <h1 class="logo mb-0"></h1>
                   </a>
@@ -14,9 +14,14 @@ let Header = {
                       <span class="navbar-toggler-icon"></span>
                   </button>
 
+                    <button type="button" data-toggle="collapse" class="close"
+                      data-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+                      aria-label="Toggle navigation">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                   <div class="collapse navbar-collapse" id="main-nav">
                     <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown" style="display: none;">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Регламент <span class="sr-only">(current)</span>
@@ -39,7 +44,10 @@ let Header = {
                       <li class="nav-item" style="display: none;">
                         <a class="nav-link" data-url="ui-designs" href="/ui-graphics">Как да стигна?</a>
                       </li>
-                      <li class="nav-item dropdown">
+                      <li class="nav-item">
+                        <a class="nav-link" data-url="story" href="/story">За фестивала</a>
+                      </li>
+                      <li class="nav-item dropdown" style="display: none;">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             За фестивала

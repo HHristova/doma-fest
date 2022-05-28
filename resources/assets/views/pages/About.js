@@ -11,7 +11,7 @@ let About = {
                             21 - 28 <span>август</span>
                         </p>
                     </div>
-                    <div class="hero-buttons-wrapper mt-5">
+                    <div class="hero-buttons-wrapper mt-5" style="display: none;">
                         <button type="button" class="btn btn-primary">бъди доброволец</button>
                         <span class="or">или</span>
                         <div class="dropdown d-inline-block">
@@ -36,7 +36,7 @@ let About = {
                 </div>
             </div>
 
-            <div class="sticky-buttons">
+            <div class="sticky-buttons" style="display: none;">
                 <button type="button" class="btn btn-primary">бъди доброволец</button>
                 <span class="or">/</span>
                 <div class="dropdown d-inline-block">

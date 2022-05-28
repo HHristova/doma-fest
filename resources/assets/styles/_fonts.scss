@@ -1,10 +1,8 @@
 @font-face {
-    font-family: 'plovdiv-sans';
-    src:
-        url('fonts/plovdivsans-webfont.woff2') format('woff2'),
-        url('fonts/plovdivsans-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Plovdiv Sans';
+    src: url('fonts/PlovdivSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
