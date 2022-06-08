@@ -281,12 +281,18 @@ html, body {
         display: block;
     }
 
+    a.btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .or {
-        margin: 0 3px;
+        margin: 0 2px;
     }
 
     .btn-primary {
-        width: 150px;
+        width: 140px;
         font-size: 19px;
         padding: 0.375rem 0;
     }

@@ -146,7 +146,7 @@ header {
     &.nav-item-btns-desktop {
         display: block;
 
-        @include media-breakpoint-down(md) {
+        @include media-breakpoint-down(sm) {
             display: none;
         }
     }
@@ -221,7 +221,11 @@ header {
         }
 
         .or {
-            margin: 0 0.75rem;
+            margin: 0 0.35rem;
+
+            @include media-breakpoint-up(lg) {
+                margin: 0 0.75rem;
+            }
         }
 
         .btn, .or {
@@ -251,16 +255,24 @@ header {
     @include media-breakpoint-up(md) {
         min-height: auto;
         justify-content: space-between;
+        padding-right: 20px;
+    }
+
+    @include media-breakpoint-up(lg) {
         padding-right: 30px;
     }
 
     .dropdown-menu {
         position: absolute;
-        width: 220px;
+        width: 100%;
         min-width: auto;
         left: 0;
         right: 0;
         margin: auto;
+
+        @include media-breakpoint-down(sm) {
+            width: 220px;
+        }
     }
 
     .dropdown-item {
@@ -298,12 +310,14 @@ header {
         height: 7.46rem;
 
         @include media-breakpoint-up(md) {
-            width: 11rem;
-            height: 11rem;
-            left: 30px;
+            width: 10rem;
+            height: 10rem;
+            left: 20px;
         }
 
         @include media-breakpoint-up(lg) {
+            width: 11rem;
+            height: 11rem;
             left: 100px;
         }
 
@@ -338,6 +352,11 @@ header {
     z-index: 9;
 
     @include media-breakpoint-up(md) {
+        width: 5rem;
+        height: 7rem;
+    }
+
+    @include media-breakpoint-up(lg) {
         width: 6.25rem;
         height: 8.125rem;
     }

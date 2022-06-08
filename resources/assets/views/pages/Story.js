@@ -7,17 +7,17 @@ let Story = {
                 <div class="main-title mb-4 mb-lg-5">История</div>
 
                 <div class="doma-story">
-                  <div class="row mt-sm-5">
+                  <div class="row mt-sm-5 animated-row">
                     <div class="d-flex align-items-center col-lg-5 offset-lg-1 col-sm-6 text-left mb-3">
                         <p>
-                            Dolna Malina Open Fest е фестивал за изкуства, който дава възможност на спортисти, музиканти, кино- и други творци и артисти да обменят опит и да представят своя талант, включвайки се в турнири, състезания, работилници и концерти. Главният организатор е бившият кмет на село Долна Малина - Йонко Димитров, който има дългогодишен опит като актьор, продуцент и режисьор.
+                            Dolna Malina Open Fest е фестивал за изкуства, който дава възможност на спортисти, музиканти, танцьори, кино- и други творци и артисти да обменят опит и да представят своя талант, включвайки се в турнири, състезания, работилници и концерти. Главният организатор е бившият кмет на село Долна Малина - Йонко Димитров, който има дългогодишен опит като актьор, продуцент и режисьор.
                         </p>
                     </div>
                     <div class="col-lg-5 col-sm-6">
                       <img class="img-fluid" src="assets/images/story/04.png" />
                     </div>
                   </div>
-                  <div class="row mt-sm-5 mt-4">
+                  <div class="row mt-sm-5 mt-4 animated-row">
                       <div class="col-lg-5 offset-lg-1 col-sm-6">
                         <img class="img-fluid" src="assets/images/story/02.png" />
                       </div>
@@ -27,7 +27,7 @@ let Story = {
                           </p>
                       </div>
                   </div>
-                  <div class="row mt-sm-5">
+                  <div class="row mt-sm-5 animated-row">
                         <div class="d-flex align-items-center col-lg-5 offset-lg-1 col-sm-6 text-left mb-3">
                             <p>
                                 Всяка година в рамките на фестивала участниците и гостите могат да се включат в спортни състезания, отворена сцена или да се насладят на кино вечери с подбрана селекция от късометражни филми.
@@ -39,6 +39,22 @@ let Story = {
                   </div>
                 </div>
             </div>
+            <div class="sticky-buttons">
+                <a class="btn btn-primary" href="https://forms.gle/4vxstVtR33BqjwWQ9" target="_blank">бъди доброволец</a>
+                <span class="or">/</span>
+                <div class="dropdown d-inline-block">
+                  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    запиши се за участие
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="https://forms.gle/7pZjWcYkZnvccogf8" target="_blank">Музика</a>
+                    <a class="dropdown-item" href="https://forms.gle/JzS22BDe2fZ2MhTs7" target="_blank">Фолклор</a>
+                    <a class="dropdown-item" href="https://forms.gle/xm6uN7zLeaRwczcr6" target="_blank">Танцово изкуство</a>
+                    <a class="dropdown-item" href="https://forms.gle/PKnbgAqCSXetHGVXA" target="_blank">Детски състави</a>
+                    <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdAMRyy19KKnWV0EzQ_MgVAi51ZCBDtKhR2bDa233U9U-3abQ/viewform" target="_blank">Фотография</a>
+                  </div>
+                </div>
+            </div>
 
 
             <br>
@@ -47,7 +63,7 @@ let Story = {
     },
     after_render: async () => {
         // ScrollReveal animations
-        ScrollReveal().reveal('.row.mt-sm-5', {
+        ScrollReveal().reveal('.animated-row', {
             duration: 1500,
             scale: '.95',
             easing: 'cubic-bezier(0.5, -0.01, 0, 1.005)',

@@ -27,8 +27,8 @@ let Header = {
                           Регламент <span class="sr-only">(current)</span>
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="assets/files/doma-film-fest.pptx">Кино</a>
-                        <a class="dropdown-item" href="assets/files/doma-music-fest.pptx">Музика</a>
+                        <a class="dropdown-item" href="">Кино</a>
+                        <a class="dropdown-item" href="">Музика</a>
                       </div>
                     </li>
                     <li class="nav-item dropdown" style="display: none;">
@@ -43,6 +43,16 @@ let Header = {
                     </li>
                       <li class="nav-item" style="display: none;">
                         <a class="nav-link" data-url="ui-designs" href="/ui-graphics">Как да стигна?</a>
+                      </li>
+                      <li class="nav-item dropdown" style="display: none;">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            За фестивала <span class="sr-only">(current)</span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" data-url="story" href="/story">Информация</a>
+                          <a class="dropdown-item" data-url="story" href="/about-us">За нас</a>
+                        </div>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" data-url="story" href="/story">За фестивала</a>
@@ -70,6 +80,7 @@ let Header = {
                               <a class="dropdown-item" href="https://forms.gle/JzS22BDe2fZ2MhTs7" target="_blank">Фолклор</a>
                               <a class="dropdown-item" href="https://forms.gle/xm6uN7zLeaRwczcr6" target="_blank">Танцово изкуство</a>
                               <a class="dropdown-item" href="https://forms.gle/PKnbgAqCSXetHGVXA" target="_blank">Детски състави</a>
+                              <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdAMRyy19KKnWV0EzQ_MgVAi51ZCBDtKhR2bDa233U9U-3abQ/viewform" target="_blank">Фотография</a>
                             </div>
                           </div>
                       </div>
@@ -87,6 +98,7 @@ let Header = {
                               <a class="dropdown-item" href="https://forms.gle/JzS22BDe2fZ2MhTs7" target="_blank">Фолклор</a>
                               <a class="dropdown-item" href="https://forms.gle/xm6uN7zLeaRwczcr6" target="_blank">Танцово изкуство</a>
                               <a class="dropdown-item" href="https://forms.gle/PKnbgAqCSXetHGVXA" target="_blank">Детски състави</a>
+                              <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdAMRyy19KKnWV0EzQ_MgVAi51ZCBDtKhR2bDa233U9U-3abQ/viewform" target="_blank">Фотография</a>
                             </div>
                           </div>
                       </div>

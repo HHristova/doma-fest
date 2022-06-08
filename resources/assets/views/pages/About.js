@@ -23,6 +23,7 @@ let About = {
                             <a class="dropdown-item" href="https://forms.gle/JzS22BDe2fZ2MhTs7" target="_blank">Фолклор</a>
                             <a class="dropdown-item" href="https://forms.gle/xm6uN7zLeaRwczcr6" target="_blank">Танцово изкуство</a>
                             <a class="dropdown-item" href="https://forms.gle/PKnbgAqCSXetHGVXA" target="_blank">Детски състави</a>
+                            <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdAMRyy19KKnWV0EzQ_MgVAi51ZCBDtKhR2bDa233U9U-3abQ/viewform" target="_blank">Фотография</a>
                           </div>
                         </div>
                     </div>
@@ -36,18 +37,18 @@ let About = {
             </div>
 
             <div class="sticky-buttons">
-                <button type="button" class="btn btn-primary">бъди доброволец</button>
+                <a class="btn btn-primary" href="https://forms.gle/4vxstVtR33BqjwWQ9" target="_blank">бъди доброволец</a>
                 <span class="or">/</span>
                 <div class="dropdown d-inline-block">
                   <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     запиши се за участие
                   </button>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Кино</a>
-                    <a class="dropdown-item" href="#">Музика</a>
-                    <a class="dropdown-item" href="#">Фолклор</a>
-                    <a class="dropdown-item" href="#">Танци</a>
-                    <a class="dropdown-item" href="#">Фотография</a>
+                    <a class="dropdown-item" href="https://forms.gle/7pZjWcYkZnvccogf8" target="_blank">Музика</a>
+                    <a class="dropdown-item" href="https://forms.gle/JzS22BDe2fZ2MhTs7" target="_blank">Фолклор</a>
+                    <a class="dropdown-item" href="https://forms.gle/xm6uN7zLeaRwczcr6" target="_blank">Танцово изкуство</a>
+                    <a class="dropdown-item" href="https://forms.gle/PKnbgAqCSXetHGVXA" target="_blank">Детски състави</a>
+                    <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdAMRyy19KKnWV0EzQ_MgVAi51ZCBDtKhR2bDa233U9U-3abQ/viewform" target="_blank">Фотография</a>
                   </div>
                 </div>
             </div>
@@ -55,6 +56,8 @@ let About = {
             <br>
         `
         return view
+    },
+    after_render: async () => {
     }
 }
 
