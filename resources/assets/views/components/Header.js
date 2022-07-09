@@ -54,17 +54,14 @@ let Header = {
                           <a class="dropdown-item" data-url="story" href="/about-us">За нас</a>
                         </div>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" data-url="story" href="/story">За фестивала</a>
-                      </li>
-                      <li class="nav-item dropdown" style="display: none;">
+                      <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             За фестивала
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">История</a>
-                          <a class="dropdown-item" href="#">Свържи се с нас</a>
+                          <a class="dropdown-item" href="/story">История</a>
+                          <a class="dropdown-item" href="/archive">Архив</a>
                         </div>
                       </li>
                       <li class="nav-item nav-item-btns-desktop">

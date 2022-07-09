@@ -11,6 +11,7 @@ $fa-font-path:  'fonts' !default;
 @import "~bootstrap/scss/bootstrap";
 @import 'header.scss';
 @import 'footer.scss';
+@import 'masonry.scss';
 
 html, body {
     font-size: 13px;

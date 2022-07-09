@@ -5,6 +5,7 @@ require('bootstrap');
 
 import About from '../views/pages/About.js'
 import Story from '../views/pages/Story.js'
+import Archive from '../views/pages/Archive.js'
 import Error404 from '../views/pages/Error404.js'
 //
 import Header from '../views/components/Header.js'
@@ -15,7 +16,8 @@ import Utils from './services/Utils.js'
 // List of supported routes. Any url other than these routes will throw a 404 error
 const routes = {
     '/' : About,
-    '/story' : Story
+    '/story' : Story,
+    '/archive' : Archive
 };
 
 // The router code. Takes a URL, checks against the list of supported routes and then renders the corresponding content page.
