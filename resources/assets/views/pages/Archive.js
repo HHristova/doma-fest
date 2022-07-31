@@ -5,7 +5,7 @@ let Archive = {
     render: async () => {
         let startPage = /*html*/ `
         <div class="main-content mb-5">
-            <div class="main-title mb-4 mb-lg-5">Архив</div>
+            <div class="main-title mb-4 mb-lg-5"><h1>Архив</h1></div>
 
             <div class="container">
                     <div class="section__container text-center">
@@ -53,7 +53,7 @@ let Archive = {
         </div>
 
         <div class="sticky-buttons">
-            <a class="btn btn-primary" href="https://forms.gle/4vxstVtR33BqjwWQ9" target="_blank">бъди доброволец</a>
+            <a class="btn btn-primary" href="https://sabitie.bg/event/kontserti-i-muzika/Dolna-Malina-Open-Fest.1121" role="button" target="_blank">купи билет</a>
             <span class="or">/</span>
             <div class="dropdown d-inline-block">
               <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -61,10 +61,13 @@ let Archive = {
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="https://forms.gle/7pZjWcYkZnvccogf8" target="_blank">Музика</a>
+                <a class="dropdown-item" href="https://forms.gle/j7rq6bkkLxusu7826" target="_blank">Кино</a>
                 <a class="dropdown-item" href="https://forms.gle/JzS22BDe2fZ2MhTs7" target="_blank">Фолклор</a>
                 <a class="dropdown-item" href="https://forms.gle/xm6uN7zLeaRwczcr6" target="_blank">Танцово изкуство</a>
                 <a class="dropdown-item" href="https://forms.gle/PKnbgAqCSXetHGVXA" target="_blank">Детски състави</a>
                 <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdAMRyy19KKnWV0EzQ_MgVAi51ZCBDtKhR2bDa233U9U-3abQ/viewform" target="_blank">Фотография</a>
+                <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSeOgB1KpWH_SdDOcs8bHfDobPdeYNSyye3WOUCQ9CffUeK4OA/viewform" target="_blank">Плажен волейбол</a>
+                <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSctdOhRbnMkibLQzXurlIDWg1s-nPnda_ID-_OsqlGiSWUgCA/viewform" target="_blank">Мини футбол</a>
               </div>
             </div>
         </div>

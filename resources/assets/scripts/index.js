@@ -6,6 +6,9 @@ require('bootstrap');
 import About from '../views/pages/About.js'
 import Story from '../views/pages/Story.js'
 import Archive from '../views/pages/Archive.js'
+import AboutUs from '../views/pages/AboutUs.js'
+import Direction from '../views/pages/Direction.js'
+import Schedule from '../views/pages/Schedule.js'
 import Error404 from '../views/pages/Error404.js'
 //
 import Header from '../views/components/Header.js'
@@ -17,7 +20,10 @@ import Utils from './services/Utils.js'
 const routes = {
     '/' : About,
     '/story' : Story,
-    '/archive' : Archive
+    '/archive' : Archive,
+    '/about-us' : AboutUs,
+    '/direction' : Direction,
+    '/schedule' : Schedule
 };
 
 // The router code. Takes a URL, checks against the list of supported routes and then renders the corresponding content page.

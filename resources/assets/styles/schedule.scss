@@ -1,0 +1,320 @@
+.doma-schedule-content-box {
+    &.doma-schedule-content-box--green-bg {
+        .nav-tabs {
+            &:after {
+                background-color: $main-color-1;
+            }
+
+            .nav-item:after {
+                background-color: darken($main-color-2, 20%);
+            }
+
+            .nav-link {
+                &.active {
+                    background-color: $main-color-1;
+                }
+            }
+        }
+
+        .nav-pills {
+            &.nav-hidden-sm {
+                display: none;
+
+                @include media-breakpoint-up(md) {
+                    display: flex;
+                }
+            }
+
+            .nav-link {
+                &.active {
+                    background-color: $main-color-1;
+                }
+            }
+        }
+
+        .list-group-item {
+            padding: 0.75rem 0;
+            border-color: $main-color-1;
+
+            @include media-breakpoint-up(md) {
+                padding: 0.75rem 1.35rem;
+            }
+        }
+
+        .tab-content {
+            text-align: left;
+
+            .tab-pane > p,
+            .tab-pane > h3 {
+                @include media-breakpoint-up(lg) {
+                    padding-left: 1.35rem;
+                    padding-right: 1.35rem;
+                }
+            }
+
+            .ul-standard {
+                padding-left: 45px;
+                margin-bottom: 0;
+
+                li::marker {
+                    color: $main-color-1;
+                }
+            }
+        }
+
+        .schedule-date-nav .nav-pills .nav-item + .nav-item {
+            margin-left: 0;
+        }
+
+        .schedule-time {
+            display: inline-block;
+            margin-bottom: 5px;
+            color: $gray-900;
+
+            &:after {
+                content: '';
+                display: block;
+                width: 3.5rem;
+                height: 0.3rem;
+                margin-top: 0.1rem;
+                margin-left: 0.1rem;
+                background-color: $main-color-1;
+            }
+        }
+
+        small {
+            &:before {
+                background-color: $main-color-1;
+            }
+        }
+    }
+}
+
+.doma-schedule-wrapper {
+    margin-bottom: 50px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: lighten($main-color-2, 40%);
+
+    @include media-breakpoint-up(lg) {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+.nav-tabs {
+    position: relative;
+    justify-content: center;
+    border-bottom: none;
+
+    > .nav-item + .nav-item {
+        margin-left: 5px;
+
+        @include media-breakpoint-up(md) {
+            margin-left: 20px;
+        }
+    }
+
+    &:after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        display: block;
+        background-color: $main-color-2;
+    }
+
+    .nav-item {
+        position: relative;
+        padding: 0;
+        width: calc(33% - 5px);
+
+        @include media-breakpoint-up(sm) {
+            width: auto;
+        }
+
+        &:after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            display: block;
+            background-color: darken($main-color-1, 10%);
+            position: absolute;
+            left: 5px;
+            bottom: 5px;
+            z-index: 1;
+
+            @include media-breakpoint-up(lg) {
+                left: 7px;
+                bottom: 7px;
+            }
+        }
+    }
+
+    .nav-link {
+        height: 100%;
+        position: relative;
+        padding: 0.5rem 0.75rem;
+        font-size: 1.35rem;
+        text-align: center;
+        color: $text-color-1;
+        border-radius: 0;
+        border: none;
+        transition: all 0.3s ease-in-out;
+        z-index: 2;
+        background-color: lighten($main-color-2, 35%);
+
+        @include media-breakpoint-up(md) {
+            padding: 0.5rem 1rem;
+        }
+
+        &:hover {
+            background-color: lighten($main-color-2, 30%);
+        }
+
+        &.active {
+            background-color: $main-color-2;
+            color: $gray-900;
+        }
+
+        span {
+            display: block;
+            font-size: 1rem;
+            font-style: italic;
+        }
+    }
+}
+
+.schedule-date-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+
+    @include media-breakpoint-up(md) {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    @include media-breakpoint-up(xl) {
+        width: 80%;
+    }
+
+    .nav-pills {
+        justify-content: center;
+        margin-top: 1rem;
+
+        @include media-breakpoint-up(md) {
+            width: 25%;
+            flex-direction: column;
+        }
+
+        @include media-breakpoint-up(xl) {
+            width: 20%;
+        }
+
+        &.nav-pills-horizontal {
+            width: 100%;
+            flex-direction: row;
+            padding: 0 0.75rem;
+
+            @include media-breakpoint-up(md) {
+                justify-content: flex-start;
+            }
+
+            .nav-item + .nav-item {
+                margin-left: 5px !important;
+            }
+        }
+
+        .nav-link {
+            background-color: lighten($main-color-2, 35%);
+        }
+
+        .nav-item + .nav-item {
+            margin-left: 5px;
+
+            @include media-breakpoint-up(md) {
+                margin-left: 0;
+            }
+        }
+
+        .nav-item {
+            padding: 10px 0;
+
+            @include media-breakpoint-up(md) {
+                padding: 10px;
+            }
+        }
+    }
+
+    .tab-content {
+        @include media-breakpoint-up(md) {
+            width: 70%;
+            padding: 15px;
+        }
+
+        &.tab-content-horizontal {
+            width: 100%;
+        }
+    }
+
+    small {
+        display: block;
+        position: relative;
+        margin: 2rem 0;
+        padding: 0.5rem 0;
+        font-size: 1rem;
+        line-height: normal;
+        font-style: italic;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 30%;
+            height: 1px;
+            display: block;
+            background-color: $main-color-2;
+        }
+    }
+}
+
+.nav-pills {
+    .nav-item + .nav-item {
+        margin-left: 0;
+    }
+
+    .nav-link {
+        text-align: center;
+        color: $text-color-1;
+        border-radius: 0;
+        font-size: 1.35rem;
+
+        &.active {
+            background-color: $main-color-2;
+            color: $gray-900;
+        }
+
+        span {
+            display: block;
+            font-size: 1rem;
+            font-style: italic;
+        }
+    }
+}
+
+.list-group-item {
+    background-color: transparent;
+    border-color: $main-color-2;
+}
+
+.schedule-time {
+    margin-bottom: 0;
+    color: $text-color-1;
+    font-size: 1.35rem;
+}
+
+.schedule-activity {
+    margin-bottom: 0;
+    font-size: 1.35rem;
+}
