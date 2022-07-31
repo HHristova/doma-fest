@@ -61,6 +61,7 @@ footer {
     }
 
     .copyright__box {
+        flex: 0 1 100%;
         margin-top: 1rem;
 
         p {
@@ -68,14 +69,30 @@ footer {
         }
 
         @include media-breakpoint-up(md) {
-            margin-top: 2.5rem;
+            margin-top: 0;
         }
     }
 
     .footer-logo {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+
+        .organisers {
+            margin-bottom: 2rem;
+
+            @include media-breakpoint-up(md) {
+                flex: 0 1 100%;
+            }
+
+            img {
+                margin-top: 0;
+            }
+        }
+
         img {
             width: 6.25rem;
-            margin-top: 3rem;
 
             @include media-breakpoint-up(md) {
                 margin-top: -1.875rem;

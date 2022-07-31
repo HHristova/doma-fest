@@ -28,6 +28,15 @@ let Footer = {
                     </div>
                     <div class="col-md order-md-2 footer-logo">
                       <img src="assets/images/doma-logo-handwritten-font.svg" />
+                      <div class="organisers mt-4">
+                        <p>Организатори:</p>
+                        <a href="https://kmedia.digital/" target="_blank">
+                            <img class="img-fluid" src="assets/images/partners/logo-kmedia.png" alt="KMedia logo" />
+                        </a>
+                        <a href="https://www.facebook.com/MustArtMusic" target="_blank">
+                            <img class="img-fluid" src="assets/images/partners/logo-mustart.png" alt="MustArt logo" />
+                        </a>
+                      </div>
                       <div class="copyright__box">
                           <p>DoMa Fest <span id="year"></span></p>
                           <p>© All rights reserved.</p>
