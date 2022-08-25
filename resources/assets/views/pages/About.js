@@ -45,8 +45,7 @@ let About = {
                             <a class="dropdown-item" href="https://forms.gle/xm6uN7zLeaRwczcr6" target="_blank">Танцово изкуство</a>
                             <a class="dropdown-item" href="https://forms.gle/PKnbgAqCSXetHGVXA" target="_blank">Детски състави</a>
                             <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdAMRyy19KKnWV0EzQ_MgVAi51ZCBDtKhR2bDa233U9U-3abQ/viewform" target="_blank">Фотография</a>
-                            <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSeOgB1KpWH_SdDOcs8bHfDobPdeYNSyye3WOUCQ9CffUeK4OA/viewform" target="_blank">Плажен волейбол</a>
-                            <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSctdOhRbnMkibLQzXurlIDWg1s-nPnda_ID-_OsqlGiSWUgCA/viewform" target="_blank">Мини футбол</a>
+                            <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdbOzP1l_6uFB48MNfgk20MV6K_mT8AE6LzQjkGKlwWgkEeQQ/viewform" target="_blank">Електронни спортове</a>
                           </div>
                         </div>
                     </div>
@@ -58,7 +57,7 @@ let About = {
                     <div class="arrow"></div>
                 </div>
             </div>
-            <div class="doma-schedule-wrapper py-5">
+            <div class="doma-schedule-wrapper pb-3 pb-md-5 pt-5">
                 <h2 class="category-title">Програма - Главна сцена 🎵🎨</h2>
                 <p class="p-content mt-3 mb-5">
                     В тази зона се намират къмпингът и главната музикална сцена, където ще се проведат музикалните състезания, отворената сцена за танцьори и музиканти,
@@ -100,19 +99,59 @@ let About = {
                                     </li>
                                     <li class="list-group-item">
                                         <p class="schedule-time">20:15 - 21:45</p>
-                                        <p class="schedule-activity">Cool Den</p>
+                                        <a class="modal-link" data-toggle="modal" data-target="#cool-den">
+                                            Cool Den
+                                        </a>
+
+                                        <div class="modal info-modal fade" id="cool-den" tabindex="-1" role="dialog" aria-labelledby="cool-denLabel" aria-hidden="true">
+                                          <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h5 class="modal-title" id="cool-denLabel">Cool Den</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                <img class="img-fluid mb-3" src="assets/images/artists/cool-den.jpg" alt="Cool Den band image" />
+                                                  Групата е в състав Никола Симеонов (китара, вокал), Ивайло Петров (китара, вокал), Васил Андреев (бас) и Теодор Чирпанлиев (барабани). Зад гърба си имат вече два албума, като от тях може да чуете и гръндж, и пънк, и алтърнатив, и рок, и ска, и фънк. Групата бързо набира популярност и печели сърцата на българската публика!
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
                                     </li>
                                     <li class="list-group-item">
                                         <p class="schedule-time">21:45 - 22:45</p>
                                         <p class="schedule-activity">Кино прожекции</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <p class="schedule-time">22:45 - 23:00</p>
-                                        <p class="schedule-activity">Oгнено шоу</p>
-                                    </li>
-                                    <li class="list-group-item">
                                         <p class="schedule-time">23:00 - До зори</p>
-                                        <p class="schedule-activity">DJ Martin Nox</p>
+
+                                        <a class="modal-link" data-toggle="modal" data-target="#martin-nox">
+                                            DJ Martin Nox
+                                        </a>
+
+                                        <div class="modal info-modal fade" id="martin-nox" tabindex="-1" role="dialog" aria-labelledby="martin-noxLabel" aria-hidden="true">
+                                          <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h5 class="modal-title" id="martin-noxLabel">DJ Martin Nox</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                <img class="img-fluid mb-3" src="assets/images/artists/dj-martin-nox.jpg" alt="DJ Martin Nox image" />
+                                                  DJ Martin Nox се занимава професионално с музика от 2016 година и има миксовете, които влизат в Top 100 global EDM mix chart & electronic dance music chart on Mixcloud!
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+
                                     </li>
                                 </ul>
 
@@ -122,12 +161,6 @@ let About = {
                                   <ul class="list-group list-group-flush">
                                       <li class="list-group-item">
                                           <p class="schedule-activity">Смехойога със СмехотвореНИЕ сме НИЕ</p>
-                                      </li>
-                                      <li class="list-group-item">
-                                          <p class="schedule-activity">Работилница за кукли със Златин Кармашиков</p>
-                                      </li>
-                                      <li class="list-group-item">
-                                          <p class="schedule-activity">Работилница за модели на автобуси Чавдар с Дариан Георгиев</p>
                                       </li>
                                       <li class="list-group-item">
                                           <p class="schedule-activity">Арт терапия</p>
@@ -170,15 +203,64 @@ let About = {
                                     </li>
                                     <li class="list-group-item">
                                         <p class="schedule-time">21:00 - 22:30</p>
-                                        <p class="schedule-activity">People of Maha</p>
+                                        <a class="modal-link" data-toggle="modal" data-target="#pom">
+                                            People of Maha
+                                        </a>
+
+                                        <div class="modal info-modal fade" id="pom" tabindex="-1" role="dialog" aria-labelledby="pomLabel" aria-hidden="true">
+                                          <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h5 class="modal-title" id="pomLabel">People of Maha</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                <img class="img-fluid mb-3" src="assets/images/artists/people-of-maha.jpg" alt="People of Maha image" />
+                                                  People of Maha са единствената изцяло женска банда на нашата алтърнатив сцена. Триото им се състои от Биа (вокал), Мила (китара) и Алекс (барабани). Биа, която няма как да видите в обувки на сцената, защото винаги подскача боса, носи гореща кръв и е от Бразилия. People of Maha е сформирана през 2018 година. Дебютният албум на момичетата се казва Blue to gold, а в момента бандата готви втория си албум!
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+
                                     </li>
                                     <li class="list-group-item">
                                         <p class="schedule-time">22:30 - 23:30</p>
                                         <p class="schedule-activity">Кино прожекции</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <p class="schedule-time">23:00 - До зори</p>
-                                        <p class="schedule-activity">DJ 89</p>
+                                        <p class="schedule-time">23:00 - 01:30</p>
+
+                                        <a class="modal-link" data-toggle="modal" data-target="#dj89">
+                                            DJ 89
+                                        </a>
+
+                                        <div class="modal info-modal fade" id="dj89" tabindex="-1" role="dialog" aria-labelledby="dj89Label" aria-hidden="true">
+                                          <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h5 class="modal-title" id="dj89Label">DJ 89</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                <img class="img-fluid mb-3" src="assets/images/artists/dj89.jpg" alt="People of Maha image" />
+                                                  DJ 89 е псевдоним на Ангел Петков, по-малкият брат от електронното дуо BRATЯТА, което създават с Иван Петков. Двамата тръгват по стъпките на българската фолклорна музика и достигат до прозрението, че тя трябва да бъде пренесена в новото хилядолетие. Към дуото се присъединяват и Бисера и Лидия, които изпълняват фолклорни песни в шопски двуглас. Двете печелят множество призови награди в национални и международни конкурси.
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="schedule-time">01:30 - 03:00</p>
+                                        <p class="schedule-activity">Electriss <br>
+                                            Arkana <br>
+                                            Syderal</p>
                                     </li>
                                 </ul>
 
@@ -190,10 +272,16 @@ let About = {
                                         <p class="schedule-activity">Смехойога със СмехотвореНИЕ сме НИЕ</p>
                                     </li>
                                     <li class="list-group-item">
+                                        <p class="schedule-activity">Бордни игри</p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="schedule-activity">Рисуване с къна</p>
+                                    </li>
+                                    <li class="list-group-item">
                                         <p class="schedule-activity">Работилница за кукли със Златин Кармашиков</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <p class="schedule-activity">Работилница за модели на автобуси Чавдар с Дариан Георгиев</p>
+                                        <p class="schedule-activity">Aрт релакс работилница</p>
                                     </li>
                                     <li class="list-group-item">
                                         <p class="schedule-activity">Арт терапия</p>
@@ -219,11 +307,19 @@ let About = {
                             <div class="tab-pane fade show active" id="mainstage-3" role="tabpanel" aria-labelledby="stage-tab-3">
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">
-                                        <p class="schedule-time">11:00 - 13:00</p>
-                                        <p class="schedule-activity">Дискусия на експерти, относно заснетите филми по време на фестивала</p>
+                                        <p class="schedule-time">09:00 - 10:00</p>
+                                        <p class="schedule-activity">Йога</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <p class="schedule-time">13:00 - 16:00</p>
+                                        <p class="schedule-time">10:00 - 11:00</p>
+                                        <p class="schedule-activity">Табата</p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="schedule-time">11:00 - 12:00</p>
+                                        <p class="schedule-activity">Аеробика</p>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <p class="schedule-time">12:00 - 16:00</p>
                                         <p class="schedule-activity">Оpen stage във всички сфери</p>
                                     </li>
                                 </ul>
@@ -236,10 +332,10 @@ let About = {
                                         <p class="schedule-activity">Смехойога със СмехотвореНИЕ сме НИЕ</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <p class="schedule-activity">Работилница за кукли със Златин Кармашиков</p>
+                                        <p class="schedule-activity">Бордни игри</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <p class="schedule-activity">Работилница за модели на автобуси Чавдар с Дариан Георгиев</p>
+                                        <p class="schedule-activity">Aрт релакс работилница</p>
                                     </li>
                                     <li class="list-group-item">
                                         <p class="schedule-activity">Арт терапия</p>
@@ -254,6 +350,141 @@ let About = {
                     </div>
                 </div>
             </div>
+
+            <div class="doma-zones mt-5 mb-5 px-3">
+                <h2 class="category-title">И още музика:</h2>
+                <p class="p-content mt-3 mb-5">
+                    Бандите и изпълнителите, които ще имаме удоволствието да чуем на сцената между 26-ти и 28-ми август:
+                </p>
+
+                <div class="doma-zones-container mt-3">
+                    <div class="d-flex flex-row doma-zones-content pb-3 pb-md-5">
+                        <div class="doma-zone-half">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Алек Кирев</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Мария Велкова</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Мръсна Приказка</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Vedders</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Time Jugglers</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Second to None</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Eudamonia</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Congail</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Илиян Стойчев</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">MIKA / Виктория Митова</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Соня Станчева</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="doma-zone-half">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">VIMIKA</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Electric dragon</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Overhook</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Лютеница</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Соня Станчева</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Константин Ковачев</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Sweet Poison</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">група Спектър</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Нерепетиралите</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Angel Child</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">SecondNoneRock band</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-generic">Da Seed</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="doma-zones doma-zones-bg pt-5 mb-5">
+                <h2 class="category-title">Повече за фестивалните зони</h2>
+                <div class="doma-zones-container mt-3 px-3">
+                    <div class="d-flex flex-row doma-zones-content">
+                        <div class="doma-zone-half">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <p class="schedule-time">Зона 1</p>
+                                    <p class="schedule-activity">Танц, фолклор</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-time">Зона 3</p>
+                                    <p class="schedule-activity">Спорт, театър</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-time">Зона 4</p>
+                                    <p class="schedule-activity">Театър</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="doma-zone-half">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <p class="schedule-time">Зона 5</p>
+                                    <p class="schedule-activity">Главна сцена</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-time">Зона 6</p>
+                                    <p class="schedule-activity">Филмово студио БУФО</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="schedule-time">Зона 7</p>
+                                    <p class="schedule-activity">Литературно четене</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <img class="img-fluid py-5" src="assets/images/zones.png" />
+            </div>
             <div class="partners-wrapper">
                 <h2 class="category-title">Партньори</h2>
                 <div class="d-flex flex-wrap animated-row partners-logos">
@@ -262,6 +493,9 @@ let About = {
                     <img class="img-fluid" src="assets/images/partners/logo-kinematograf.png" alt="Kinematograf logo" />
                     <img class="img-fluid" src="assets/images/partners/logo-para.png" alt="Professional association of robotics and automation logo" />
                     <img class="img-fluid" src="assets/images/partners/logo-ufo.png" alt="Film and television studio Ufo logo" />
+                    <img class="img-fluid" src="assets/images/partners/logo-badrock.png" alt="The new bulgarian rock radio logo" />
+                    <img class="img-fluid" src="assets/images/partners/logo-bgfi.png" alt="Bulgarian film institute logo" />
+                    <img class="img-fluid" src="assets/images/partners/logo-e-sports-federation.png" alt="Bulgarian e-sports federation logo" />
                 </div>
             </div>
 
@@ -279,8 +513,7 @@ let About = {
                     <a class="dropdown-item" href="https://forms.gle/xm6uN7zLeaRwczcr6" target="_blank">Танцово изкуство</a>
                     <a class="dropdown-item" href="https://forms.gle/PKnbgAqCSXetHGVXA" target="_blank">Детски състави</a>
                     <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdAMRyy19KKnWV0EzQ_MgVAi51ZCBDtKhR2bDa233U9U-3abQ/viewform" target="_blank">Фотография</a>
-                    <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSeOgB1KpWH_SdDOcs8bHfDobPdeYNSyye3WOUCQ9CffUeK4OA/viewform" target="_blank">Плажен волейбол</a>
-                    <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSctdOhRbnMkibLQzXurlIDWg1s-nPnda_ID-_OsqlGiSWUgCA/viewform" target="_blank">Мини футбол</a>
+                    <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdbOzP1l_6uFB48MNfgk20MV6K_mT8AE6LzQjkGKlwWgkEeQQ/viewform" target="_blank">Електронни спортове</a>
                   </div>
                 </div>
             </div>

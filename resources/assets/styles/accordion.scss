@@ -18,6 +18,15 @@
             border-radius: 0;
         }
 
+        &.card-header-generic {
+            .btn {
+                padding: 0.25rem 1.125rem 0.75rem;
+                font-size: 1.5rem;
+                text-transform: none;
+                font-family: $theme-font-family;
+            }
+        }
+
         .btn {
             width: 100%;
             text-align: left;

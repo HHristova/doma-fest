@@ -9,6 +9,7 @@ import Archive from '../views/pages/Archive.js'
 import AboutUs from '../views/pages/AboutUs.js'
 import Direction from '../views/pages/Direction.js'
 import Schedule from '../views/pages/Schedule.js'
+import Faqs from '../views/pages/Faqs.js'
 import Error404 from '../views/pages/Error404.js'
 //
 import Header from '../views/components/Header.js'
@@ -23,7 +24,8 @@ const routes = {
     '/archive' : Archive,
     '/about-us' : AboutUs,
     '/direction' : Direction,
-    '/schedule' : Schedule
+    '/schedule' : Schedule,
+    '/faqs' : Faqs
 };
 
 // The router code. Takes a URL, checks against the list of supported routes and then renders the corresponding content page.

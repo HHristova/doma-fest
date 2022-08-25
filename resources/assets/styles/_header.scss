@@ -139,6 +139,7 @@ header {
 
     &.dropdown {
         .dropdown-menu {
+            z-index: 9;
             background-color: $main-color-1;
 
             .dropdown-item {

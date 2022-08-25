@@ -91,7 +91,6 @@
 }
 
 .doma-schedule-wrapper {
-    margin-bottom: 50px;
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: lighten($main-color-2, 40%);
@@ -314,7 +313,8 @@
     font-size: 1.35rem;
 }
 
-.schedule-activity {
+.schedule-activity,
+.schedule-generic {
     margin-bottom: 0;
     font-size: 1.35rem;
 }
