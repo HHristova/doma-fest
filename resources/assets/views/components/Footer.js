@@ -6,7 +6,7 @@ let Footer = {
                 <div class="col-sm">
                     <div>
                         <p>ЗА ДА СЛЕДИТЕ ВСИЧКО АКТУАЛНО:</p>
-                        <p>#DOMAFEST2022</p>
+                        <p>#DOMAFEST2023</p>
                     </div>
                 </div>
             </div>

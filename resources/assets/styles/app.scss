@@ -429,7 +429,7 @@ p a {
 }
 
 .hero-img__subtitle {
-    padding-top: 120px;
+    padding-top: 160px;
     margin-bottom: 0;
     font-size: 1.3rem;
 
@@ -438,7 +438,7 @@ p a {
     }
 
     @include media-breakpoint-up(sm) {
-        padding-top: 26vh;
+        padding-top: 32vh;
         font-size: 2rem;
     }
 
