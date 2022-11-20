@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.hhristova.com/sitemap.xml
+Sitemap: https://www.malinafest.com/sitemap.xml
