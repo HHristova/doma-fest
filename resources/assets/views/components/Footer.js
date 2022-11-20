@@ -6,7 +6,7 @@ let Footer = {
                 <div class="col-sm">
                     <div>
                         <p>ЗА ДА СЛЕДИТЕ ВСИЧКО АКТУАЛНО:</p>
-                        <p>#DOMAFEST2023</p>
+                        <p>#MALINAFEST2023</p>
                     </div>
                 </div>
             </div>
@@ -16,18 +16,18 @@ let Footer = {
                 <div class="row">
                     <div class="col order-md-1">
                       <p>Последвайте ни:</p>
-                      <a class="social-links" href="https://www.instagram.com/doma_fest/" target="_blank">
+                      <a class="social-links" href="https://www.instagram.com/malina_fest/" target="_blank">
                         <i class="fab fa-instagram social-icons__inst" aria-hidden="true"></i>
-                      </a><a class="social-links" href="https://www.facebook.com/domafest" target="_blank">
+                      </a><a class="social-links" href="https://www.facebook.com/malinafest" target="_blank">
                         <i class="fab fa-facebook social-icons__inst" aria-hidden="true"></i>
                       </a>
                     </div>
                     <div class="col order-md-3">
                       <p>Връзка с нас:</p>
-                      <a class="email-link" href="mailto:contact@doma-fest.com">contact@doma-fest.com</a>
+                      <a class="email-link" href="mailto:contact@malinafest.com">contact@malinafest.com</a>
                     </div>
                     <div class="col-md order-md-2 footer-logo">
-                      <img src="assets/images/doma-logo-handwritten-font.svg" />
+                      <img src="assets/images/malina-logo.svg" />
                       <div class="organisers mt-4">
                         <p>Организатори:</p>
                         <a href="https://kmedia.digital/" target="_blank">
@@ -38,7 +38,7 @@ let Footer = {
                         </a>
                       </div>
                       <div class="copyright__box">
-                          <p>DoMa Fest <span id="year"></span></p>
+                          <p>Malina Open Fest <span id="year"></span></p>
                           <p>© All rights reserved.</p>
                       </div>
                     </div>

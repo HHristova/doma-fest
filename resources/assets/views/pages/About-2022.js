@@ -6,7 +6,7 @@ let About = {
             <div class="main-header">
                 <div class="hero-img hero-img--about">
                     <p class="hero-img__subtitle text-center">
-                        <img src="assets/images/doma.svg" />
+                        <img src="assets/images/malina.svg" />
                     </p>
                     <div class="hero-dates">
                         21 - 28 <span>август</span>

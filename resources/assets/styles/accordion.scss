@@ -20,7 +20,7 @@
 
         &.card-header-generic {
             .btn {
-                padding: 0.25rem 1.125rem 0.75rem;
+                padding: 0.5rem 1.125rem 0.75rem;
                 font-size: 1.5rem;
                 text-transform: none;
                 font-family: $theme-font-family;
@@ -35,8 +35,7 @@
             border-radius: 0;
             border-bottom: 5px solid $main-color-1;
             position: relative;
-            font-family: 'Verveine', sans-serif;
-            font-weight: 400;
+            font-family: 'Caveat', sans-serif;
             font-size: 2.25rem;
             line-height: normal;
             color: $gray-900;

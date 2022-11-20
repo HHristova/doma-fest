@@ -239,7 +239,7 @@ p a {
 
 .or {
     margin: 0 1rem;
-    font-family: 'Verveine', sans-serif;
+    font-family: 'Caveat', sans-serif;
     font-size: 1.875rem;
     text-transform: uppercase;
     vertical-align: middle;
@@ -250,9 +250,8 @@ p a {
     border-radius: 0;
     background-color: $main-color-3;
     border-color: $main-color-3;
-    font-family: 'Verveine', sans-serif;
+    font-family: 'Caveat', sans-serif;
     font-size: 1.875rem;
-    text-transform: uppercase;
     transition: all 0.2s ease-in-out;
 
     &:hover {
@@ -291,8 +290,8 @@ p a {
     .dropdown-item {
         padding: 0.75rem;
         color: $plain-color;
-        font-family: 'Verveine', sans-serif;
-        font-size: 1.5rem;
+        font-family: 'Simbal', sans-serif;
+        font-size: 1.15rem;
         text-transform: uppercase;
 
         &:hover, &:focus {
@@ -378,7 +377,7 @@ p a {
 .hero-dates {
     margin-bottom: 1rem;
     font-size: 2.5rem;
-    font-family: 'Verveine', sans-serif;
+    font-family: 'Caveat', sans-serif;
     line-height: normal;
     text-transform: uppercase;
 
@@ -389,7 +388,7 @@ p a {
 
 .hero-accent {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 10px 30px 10px 15px;
     margin: 5px;
     position: relative;
     z-index: 1;
@@ -409,22 +408,28 @@ p a {
 
     h1 {
         margin-bottom: 0;
-        font-family: 'Verveine', sans-serif;
-        font-weight: 400;
-        font-size: 2.5rem;
-        line-height: 2.5rem;
+        font-family: 'Caveat', sans-serif;
+        font-size: 3.5rem;
+        line-height: 3.5rem;
         letter-spacing: 0.8;
         color: $main-color-1;
         text-transform: uppercase;
 
         @include media-breakpoint-up(lg) {
-            font-size: 3.5rem;
-            line-height: 3.5rem;
+            font-size: 4.5rem;
+            line-height: 4.5rem;
         }
     }
 
     span {
         letter-spacing: 4px;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 3.5rem;
+            line-height: 3.5rem;
+        }
     }
 }
 
@@ -560,8 +565,7 @@ p a {
     margin: 0;
     background-color: $main-color-1;
     color: $text-color-1;
-    font-family: 'Verveine', sans-serif;
-    font-weight: 400;
+    font-family: 'Caveat', sans-serif;
     text-transform: uppercase;
 
     @include media-breakpoint-up(md) {
@@ -570,8 +574,8 @@ p a {
 
     h1 {
         margin-bottom: 0;
-        font-size: 3.2rem;
-        line-height: 3.2rem;
+        font-size: 2.8rem;
+        line-height: 2.8rem;
     }
 
     @include media-breakpoint-up(sm) {
@@ -627,8 +631,7 @@ p a {
 .category-title {
     margin: 0 3rem;
     color: $text-color-1;
-    font-family: 'Verveine', sans-serif;
-    font-weight: 400;
+    font-family: 'Caveat', sans-serif;
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;

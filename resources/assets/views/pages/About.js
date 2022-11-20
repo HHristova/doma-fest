@@ -6,11 +6,11 @@ let About = {
             <div class="main-header">
                 <div class="hero-img hero-img--about">
                     <p class="hero-img__subtitle text-center">
-                        <img src="assets/images/doma.svg" />
+                        <img src="assets/images/malina.svg" />
                     </p>
                     <div class="hero-accent hero-accent-blue mt-4">
                         <h1>
-                            23 - 25 <span>юни 2023</span>
+                            16 - 18 <span>юни</span> 2023
                         </h1>
                     </div>
                     <img class="hero-img-top" src="assets/images/hammock.png" />

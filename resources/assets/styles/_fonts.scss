@@ -1,19 +1,17 @@
 @font-face {
-  font-family: 'Plovdiv Sans';
-    src: url('fonts/PlovdivSans-Regular.woff') format('woff');
+  font-family: 'Simbal';
+    src: url('fonts/simbal-regular.ttf') format('truetype'),
+        url('fonts/simbal-regular.woff2') format('woff2'),
+        url('fonts/simbal-regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-    font-family: 'Verveine';
-    src: url('fonts/Verveine/Verveine-Regular.eot');
-    src: url('fonts/Verveine/Verveine-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Verveine/Verveine-Regular.woff2') format('woff2'),
-        url('fonts/Verveine/Verveine-Regular.woff') format('woff'),
-        url('fonts/Verveine/Verveine-Regular.ttf') format('truetype'),
-        url('fonts/Verveine/Verveine-Regular.svg#Verveine-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Caveat';
+    src: url('fonts/caveat/Caveat-Bold.ttf') format('truetype'),
+        url('fonts/caveat/Caveat-Bold.woff2') format('woff2'),
+        url('fonts/caveat/Caveat-Bold.woff') format('woff'),
+        url('fonts/caveat/Caveat-Bold.otf') format('otf');
+  font-style: normal;
 }
